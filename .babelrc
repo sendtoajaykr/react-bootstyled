@@ -1,0 +1,17 @@
+{
+  "presets": ["env", "react", "es2015", "stage-0"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-object-rest-spread",
+        [
+          "transform-runtime",
+          {
+            "polyfill": false,
+            "regenerator": true
+          }
+        ]
+      ]
+    }
+  }
+}
