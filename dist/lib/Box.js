@@ -21,7 +21,8 @@ var _styledSystem = require('styled-system');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var color = _styledSystem.styles.color,
-    rest = (0, _objectWithoutProperties3.default)(_styledSystem.styles, ['color']);
+    borders = _styledSystem.styles.borders,
+    rest = (0, _objectWithoutProperties3.default)(_styledSystem.styles, ['color', 'borders']);
 
 var css = function css(props) {
   return props.css;

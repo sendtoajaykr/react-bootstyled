@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Box } from '../../src';
+import { Box, Button } from '../../src';
 
-const Home = () => <Box mx={5}>Testing</Box>;
+const Home = () => <Button display="block" mx={5}>Testing</Button>;
 
 const App = () => (
   <Switch>
