@@ -75,11 +75,5 @@
         "statements": 100
       }
     }
-  },
-  "bundlesize": [
-    {
-      "path": "./dist/*.js",
-      "maxSize": "1.5 kB"
-    }
-  ]
+  }
 }
