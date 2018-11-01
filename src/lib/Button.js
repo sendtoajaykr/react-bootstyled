@@ -3,8 +3,6 @@ import Box from './Box';
 
 const Button = styled(Box)`
   user-select: none;
-  appearance: button;
-  cursor: ${props => props.cursor};
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   &:hover, :focus {
@@ -37,7 +35,8 @@ Button.defaultProps = {
   border: '1px solid rgba(0,0,0,0.1)',
   borderRadius: '0.25rem',
   cursor: 'pointer',
-  bg: 'transparent'
+  bg: 'transparent',
+  tabIndex: -1
 };
 
 export default Button;

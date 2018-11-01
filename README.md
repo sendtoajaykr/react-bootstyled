@@ -9,7 +9,7 @@ npm i react-bootstyled styled-components
 All in your hand to change color and size
 
 ```
-<Alert bg="#f00" color="#fff"> Danger </Alert>
+<Alert bg="#f00" c="#fff"> Danger </Alert>
 
-<Alert bg="red" color="white" p="5px"> Danger </Alert>
+<Alert bg="red" c="white" p="5px"> Danger </Alert>
 ```

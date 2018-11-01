@@ -1,7 +1,9 @@
 src
 examples
 .babelrc
+babel.config.js
 .gitignore
 webpack.config.js
 *.tgz
 node_modules/
+test/

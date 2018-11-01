@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Box, Button } from '../../src';
 
-const Home = () => <Button display="block" mx={5}>Testing</Button>;
+const Home = () => <Button as='a' mx={5}>Testing</Button>;
 
 const App = () => (
   <Switch>
