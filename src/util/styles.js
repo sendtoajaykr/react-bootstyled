@@ -12,7 +12,9 @@ export const propTypes = {
   ])
 };
 
-export const defaultBreakpoints = [40, 52, 64].map(n => n + 'em');
+export const defaultBreakpoints = [576, 768, 992, 1200].map(
+  n => n + 'px'
+);
 export const is = n => n !== undefined && n !== null;
 export const num = n => typeof n === 'number' && !isNaN(n);
 export const px = n => (num(n) ? n + 'px' : n);
@@ -278,6 +280,12 @@ export const fontSize = style({
 });
 
 export const textColor = style({
+  prop: 'color',
+  cssProperty: 'color',
+  key: 'colors'
+});
+
+export const color = style({
   prop: 'c',
   cssProperty: 'color',
   key: 'colors'
@@ -288,11 +296,6 @@ export const bgColor = style({
   cssProperty: 'backgroundColor',
   key: 'colors'
 });
-
-export const color = compose(
-  textColor,
-  bgColor
-);
 
 // typography
 export const fontFamily = style({
