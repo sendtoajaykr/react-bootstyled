@@ -1,6 +1,6 @@
 {
   "name": "react-bootstyled",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Bootstrap in styled components",
   "main": "dist/index.js",
   "module": "dist/index.js",

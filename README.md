@@ -14,6 +14,13 @@ All in your hand to change color and size
 <Alert bg="red" c="white" p="5px"> Danger </Alert>
 ```
 
+```
+<Tooltip placement="bottom">
+  Text on Tooltip
+  <Tooltip.Text bg="red" c="#fff">Sample text</Tooltip.Text>
+</Tooltip>
+```
+
 ### Components ready
 
 _All Components extends Box props._
@@ -25,6 +32,7 @@ _All Components extends Box props._
 - [x] Container
 - [x] Row
 - [x] Col
+- [x] Tooltip
 
 ##### Box props
 
@@ -100,6 +108,20 @@ _All Components extends Box props._
 - textStyle
 - colorStyle
 - buttonStyle
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
 
 ##### Extra Col props
 

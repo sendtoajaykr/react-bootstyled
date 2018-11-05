@@ -5,3 +5,4 @@ export { default as Button } from "./lib/Button";
 export { default as Container } from "./lib/Container";
 export { default as Row } from "./lib/Row";
 export { default as Col } from "./lib/Col";
+export { default as Tooltip } from "./lib/Tooltip";

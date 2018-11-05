@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Box, Button, Alert, Container, Row, Col } from '../../src';
+import { Box, Button, Alert, Container, Row, Col, Tooltip } from '../../src';
 
 import { createGlobalStyle } from 'styled-components';
 
@@ -15,6 +15,10 @@ const Home = () => (
       <Col xs={6}>Testing</Col>
       <Col xs={6}>Testing</Col>
     </Row>
+    <Tooltip placement="bottom">
+      Text on Tooltip
+      <Tooltip.Text bg="red" c="#fff">Sample text</Tooltip.Text>
+    </Tooltip>
   </Container>
 );
 
